@@ -49,18 +49,18 @@ services:
 ##### Via Docker CLI:
 
 ```bash
-docker run -it --rm --name macos -p 8006:8006 --device=/dev/kvm --device=/dev/net/tun --cap-add NET_ADMIN -v "${PWD:-.}/macos:/storage" --stop-timeout 120 dockurr/macos
+docker run -it --rm --name macos -p 8006:8006 --device=/dev/kvm --device=/dev/net/tun --cap-add NET_ADMIN -v "${PWD:-.}/macos:/storage" --stop-timeout 120 DerpyMario/macos-high-end
 ```
 
 ##### Via Kubernetes:
 
 ```shell
-kubectl apply -f https://raw.githubusercontent.com/dockur/macos/refs/heads/master/kubernetes.yml
+kubectl apply -f https://raw.githubusercontent.com/DerpyMario/macos-high-end/refs/heads/master/kubernetes.yml
 ```
 
 ##### Via Github Codespaces:
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/dockur/macos)
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/DerpyMario/macos-high-end)
 
 ## FAQ 💬
 
