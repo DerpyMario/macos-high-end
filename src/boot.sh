@@ -13,7 +13,7 @@ case "${HEIGHT,,}" in
   "1080" )
     DEST="$PROCESS"
     ROM="OVMF_CODE.fd"
-    VARS="OVMF_VARS-1920x1080.fd"
+    VARS="OVMF_VARS-1280x1024.fd"
     ;;
   "768" )
     DEST="${PROCESS}_hd"
